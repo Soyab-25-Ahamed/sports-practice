@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sports</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body class="bg-success">
+    <!-- searchbar -->
+    <h1 class="text-white text-center my-5">Welcome to TheSportsDB</h1>
+    <div class="input-group mb-3 w-50 mx-auto">
+        <input id="about" type="text" class="form-control" placeholder="Search Team, Event or Player"
+            aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <button onclick="fiend()" class="input-group-text" id="basic-addon2">Fiend</button>
+    </div>
+    <!-- Players Information -->
+    <section id="player-details" class="container">
+
+    </section>
+    <!-- About players -->
+    <section class="container">
+        <div id="player-info" class="row row-cols-1 row-cols-md-3 g-4">
+
+        </div>
+    </section>
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <!-- main script -->
+    <script src="sports.js"></script>
+</body>
+
+</html>
